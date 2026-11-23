@@ -37,7 +37,7 @@ Any other client that speaks remote MCP over streamable HTTP with OAuth should w
 
 ## Quick start
 
-1. **Connect Microsoft Ads in Sprites.** Sign up at [sprites.ai](https://www.sprites.ai) and connect Microsoft Ads once in the Sprites integrations menu. Plans start at $29 a month with a 7-day trial for $1. There is no free plan.
+1. **Connect Microsoft Ads in Sprites.** Sign up at [sprites.ai](https://www.sprites.ai) and connect Microsoft Ads once in the Sprites integrations menu. Start a trial from the Sprites site.
 2. **Add the server to your client** with the URL `https://mcp.sprites.ai/mcp` (one endpoint for every client and every channel).
 3. **Sign in.** Your client opens the Sprites consent screen. Sign in with the account your channels are connected to and approve.
 4. **Ask.** Try: "With Sprites, how did Microsoft Ads do last 30 days vs the 30 before?"
@@ -259,11 +259,10 @@ Yes. Ask about both in one request and Sprites answers it as one comparison (cha
 **Does it cover other channels?**
 Yes. The same URL reaches Google Ads, Meta Ads, LinkedIn Ads, TikTok Ads, Reddit Ads, Microsoft Advertising,
 Apple Ads, GA4, Search Console, Shopify, SEO and AI visibility, and Google Business Profile, for whatever is
-connected in Sprites. See [ads-mcp-servers](https://github.com/sprites-ai/ads-mcp-servers).
+connected in Sprites. See [ads-mcp-servers](https://github.com/sprites-mcp/ads-mcp-servers).
 
 **How much does it cost?**
-The connector is part of your Sprites plan: Build is $29 to $99 a month, Launch is $300 to $500 a month, and
-larger companies get a custom plan. Every plan starts with a 7-day trial for $1. Microsoft Ads charges its own media
+The connector is included in every Sprites plan, and every plan starts with a short trial. See sprites.ai for current plans. Microsoft Ads charges its own media
 cost as usual.
 
 **The client says it has no tools, or every call is unauthorized.**
@@ -277,7 +276,7 @@ Disconnect the connector in your client, or remove the connection in Sprites. Th
 This server is built and run by [Sprites](https://www.sprites.ai), an AI marketing agent for paid ads, SEO and AI visibility.
 
 - Product page: [sprites.ai/integrations](https://www.sprites.ai/integrations)
-- All Sprites MCP servers: [github.com/sprites-ai](https://github.com/sprites-ai)
+- All Sprites MCP servers: [github.com/sprites-mcp](https://github.com/sprites-mcp)
 - Issues with these docs or configs: open an issue here. Security reports: see [SECURITY.md](SECURITY.md).
 
 Licensed under the [MIT License](LICENSE). The license covers the documentation and configuration files in this repository.
