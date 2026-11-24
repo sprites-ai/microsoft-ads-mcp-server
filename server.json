@@ -4,7 +4,7 @@
   "title": "Microsoft Advertising by Sprites",
   "description": "Microsoft Advertising (Bing Ads) for AI agents: reports and campaign changes with approval.",
   "version": "1.0.0",
-  "websiteUrl": "https://www.sprites.ai/integrations",
+  "websiteUrl": "https://www.sprites.ai/mcp/microsoft-ads",
   "repository": {
     "url": "https://github.com/sprites-mcp/microsoft-ads-mcp-server",
     "source": "github"
